@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GCD Calculator - Euclidean Algorithm</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GCD Calculator using Euclidean Algorithm </h1>
+    <div class="input-section">
+      <input type="number" id="numA" placeholder="Enter number A" required>
+      <input type="number" id="numB" placeholder="Enter number B" required>
+      <button id="calculateBtn" onclick="calculateGCD()">Find GCD</button>
+    </div>
+    <div id="steps" class="steps">
+      <h2>Steps:</h2>
+      <ul id="stepList"></ul>
+    </div>
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
